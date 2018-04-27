@@ -1,0 +1,24 @@
+{
+  "name": "Github comment URL picker",
+  "version": "1.0",
+  "description": "Add an icon for saving the link to clipboard next to the title of the github issue comment.",
+  "manifest_version": 2,
+  "permissions": [
+    "tabs",
+    "https://github.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "css": ["src/app.css"],
+      "js": ["src/app.js"]
+    }
+  ],
+  "page_action": {
+    "default_icon" : {
+      "16": "./src/icon-19.png",
+      "48": "./src/icon-48.png",
+      "128": "./src/icon-128.png"
+    }
+  }
+}
