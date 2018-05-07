@@ -16,7 +16,6 @@
   ],
   "page_action": {
     "default_icon" : {
-      "16": "./src/icon-19.png",
       "48": "./src/icon-48.png",
       "128": "./src/icon-128.png"
     }
