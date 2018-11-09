@@ -1,6 +1,8 @@
 # GitHub Comment Link copy
 
-GitHubのコメントのリンクをコピーする
-コメントツールバーのところにアイコンを追加
-a.timestampにあるhrefをゲット
-クリップボードにコピー
+Added a copy button to GitHub's comment.
+
+Get a.href in timestamp.
+
+Copy it to your clipboard.
+
