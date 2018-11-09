@@ -9,13 +9,20 @@
   ],
   "content_scripts": [
     {
-      "matches": ["https://github.com/*"],
-      "css": ["src/app.css"],
-      "js": ["src/app.js"]
+      "matches": [
+        "https://github.com/**/issues*",
+        "https://github.com/**/pull*"
+      ],
+      "css": [
+        "src/app.css"
+      ],
+      "js": [
+        "src/app.js"
+      ]
     }
   ],
   "page_action": {
-    "default_icon" : {
+    "default_icon": {
       "48": "./src/icon-48.png",
       "128": "./src/icon-128.png"
     }
